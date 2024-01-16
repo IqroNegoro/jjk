@@ -10,10 +10,17 @@
     }
 }
 
-@layer components {
-    .vanishing-border {
-        border-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)) 1 100% 1;
-        border-width: 2px;
-        border-style: solid;
+/* @layer components {
+    .marquee {
+        animation: marquee 30s linear infinite;
     }
-}
+}   
+
+@keyframes marquee {
+     0% {
+        transform: translateX(100vw);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+} */
