@@ -59,6 +59,8 @@
             <button @click="i <= 0 ? i = 4 : i--"><i class="bx bx-arrow-back text-3xl"></i></button>
             <button @click="i >= 4 ? i = 0 : i++"><i class="bx bx-arrow-back text-3xl bx-rotate-180"></i></button>
         </div>
+        <img src="/img/left.png" alt="" class="fixed -z-10 w-48 bottom-0 left-0">
+        <img src="/img/right.png" alt="" class="fixed -z-10 w-48 bottom-0 right-0">
         <img src="/img/textures.png" alt="" class="fixed top-0 left-0 w-full h-full mix-blend-color-dodge z-20">
     </div>
 </template>
