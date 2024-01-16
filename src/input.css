@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@layer components {
+    .vanishing-border {
+        border-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.1)) 1 100% 1;
+        border-width: 2px;
+        border-style: solid;
+    }
+}

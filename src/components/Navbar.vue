@@ -1,0 +1,16 @@
+<template>
+    <div class="fixed z-50 top-0 left-0 h-12 text-white w-full flex flex-row p-4 justify-center items-center gap-12">
+        <router-link to="/" class="text-sm" :class="{'text-white': $route.name == 'home', 'text-white/75': $route.name != 'home'}">Home</router-link>
+        <p class="text-white/75 rotate-[-35deg]" to="">\</p>
+        <router-link to="/" class="text-sm" :class="{'text-white': $route.name == 'about', 'text-white/75': $route.name != 'about'}">About</router-link>
+        <p class="text-white/75 rotate-[-35deg]" to="">\</p>
+        <img src="/img/header.png" alt="header" class="text-white/75 w-24">
+        <p class="text-white/75 rotate-[35deg]" to="">/</p>
+        <router-link to="/" class="text-sm" :class="{'text-white': $route.name == 'characters', 'text-white/75': $route.name != 'characters'}">Characters</router-link>
+        <p class="text-white/75 rotate-[35deg]" to="">/</p>
+        <router-link to="/" class="text-sm" :class="{'text-white': $route.name == 'news', 'text-white/75': $route.name != 'news'}">News</router-link>
+    </div>
+</template>
+<script setup>
+
+</script>
