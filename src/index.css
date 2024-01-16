@@ -634,6 +634,14 @@ html {
   top: 24rem;
 }
 
+.-bottom-14{
+  bottom: -3.5rem;
+}
+
+.-left-36{
+  left: -9rem;
+}
+
 .-z-10{
   z-index: -10;
 }

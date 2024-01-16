@@ -75,8 +75,8 @@
                 <button @click="i >= 4 ? i = 0 : i++"><i class="bx bx-arrow-back text-3xl bx-rotate-180"></i></button>
             </div>
         </div>
-        <div class="w-[120%] z-10 max-md:hidden fixed -bottom-12 -left-40 h-36 flex flex-col flex-nowrap rotate-6">
-            <div class="w-full marquee h-full bg-[#FF8718] text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
+        <div class="w-[120%] z-10 max-md:hidden fixed -bottom-14 -left-36 h-36 flex flex-col flex-nowrap rotate-6">
+            <div class="w-full h-full bg-[#FF8718] text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
                 <p>LATEST SEASON</p>
                 <img src="/img/stridgestar.png" alt="">
                 <p>BEST ACTION ANIME</p>
@@ -84,7 +84,7 @@
                 <p>JUJUTSU KAISEN 2ND SEASON</p>
                 <img src="/img/stridgestar.png" alt="">
             </div>
-            <div class="w-full -marquee h-full text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
+            <div class="w-full h-full text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
                 <p>TOP RATED ANIME</p>
                 <img src="/img/stridgestar.png" alt="">
                 <p>RECOMMENDATION</p>
