@@ -75,22 +75,28 @@
                 <button @click="i >= 4 ? i = 0 : i++"><i class="bx bx-arrow-back text-3xl bx-rotate-180"></i></button>
             </div>
         </div>
-        <div class="w-[120%] z-10 max-md:hidden fixed -bottom-14 -left-32 h-36 flex flex-col flex-nowrap rotate-6">
-            <div class="w-full h-full bg-[#FF8718] text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
-                <p>LATEST SEASON</p>
-                <img src="/img/stridgestar.png" alt="">
-                <p>BEST ACTION ANIME</p>
-                <img src="/img/stridgestar.png" alt="">
-                <p>JUJUTSU KAISEN 2ND SEASON</p>
-                <img src="/img/stridgestar.png" alt="">
+        <div class="w-[120%] z-10 max-md:hidden fixed -bottom-14 -left-32 h-36 flex flex-col flex-nowrap rotate-3">
+            <div class="bg-[#FF8718]">
+                <marquee>
+                    <div class="w-full h-full text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
+                        <p>LATEST SEASON</p>
+                        <img src="/img/stridgestar.png" alt="">
+                        <p>BEST ACTION ANIME</p>
+                        <img src="/img/stridgestar.png" alt="">
+                        <p>JUJUTSU KAISEN 2ND SEASON</p>
+                        <img src="/img/stridgestar.png" alt="">
+                    </div>
+                </marquee>
             </div>
-            <div class="w-full h-full text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
-                <p>TOP RATED ANIME</p>
-                <img src="/img/stridgestar.png" alt="">
-                <p>RECOMMENDATION</p>
-                <img src="/img/stridgestar.png" alt="">
-                <p>JUJUTSU KAISEN 2ND SEASON</p>
-            </div>
+            <marquee direction="right">
+                <div class="w-full h-full text-black font-bold flex flex-row justify-center items-center text-3xl gap-12">
+                    <p>TOP RATED ANIME</p>
+                    <img src="/img/stridgestar.png" alt="">
+                    <p>RECOMMENDATION</p>
+                    <img src="/img/stridgestar.png" alt="">
+                    <p>JUJUTSU KAISEN 2ND SEASON</p>
+                </div>
+            </marquee>
         </div>
     </div>
     <img src="/img/textures.png" alt="" class="fixed top-0 left-0 w-full h-full mix-blend-color-dodge z-20">
