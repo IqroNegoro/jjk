@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col md:flex-row justify-center items-center w-full md:h-screen p-8 md:p-24 pt-0 max-md:pb-8 pb-0">
-        <div class="w-full flex max-md:items-center flex-col justify-start items-start gap-8 h-full">
-            <h1 class="text-7xl max-md:text-center font-black text-white leading-[85px]">JUJUTSU KAISEN 2ND SEASON</h1>
-            <div class="flex flex-col md:flex-row justify-center items-center gap-8 w-full md:w-3/4">
+    <div class="flex flex-col overflow-hidden lg:flex-row justify-center items-center w-full lg:h-screen p-8 lg:p-24 pt-0 max-md:pb-8 pb-0">
+        <div class="w-full flex max-lg:items-center flex-col justify-start items-start gap-8 h-full">
+            <h1 class="text-7xl max-lg:text-center font-black text-white leading-[85px]">JUJUTSU KAISEN 2ND SEASON</h1>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-8 w-full md:w-3/4">
                 <hr class="border border-t-white w-full">
                 <div class="flex flex-row justify-center items-center w-full">
                     <img src="/img/User 1.png" alt="">
@@ -14,8 +14,8 @@
             </div>
             <button class="relative z-50 flex border hover:bg-orange transition-colors duration-150 border-orange px-4 py-1 text-sm justify-center items-center text-white">Watch Jujutsu Kaisen <i class='bx bx-up-arrow-alt rotate-45 text-3xl'></i></button>
         </div>
-        <div class="relative w-full max-md:h-screen md:p-12 md:pb-0 max-md:order-first flex justify-center items-center">
-            <div class="border z-0 border-white p-4 pb-0 md:h-full h-3/4 w-80 md:w-96 absolute inset-8 bg-gradient-to-r from-white/5 to-transparent top-24 md:top-1/2 left-1/2 -translate-x-1/2 translate-0 md:-translate-y-1/3">
+        <div class="relative w-full max-md:h-screen md:p-12 md:pb-0 max-lg:order-first flex justify-center items-center">
+            <div class="border z-0 border-white p-4 pb-0 lg:h-full h-3/4 w-80 md:w-96 absolute inset-8 bg-gradient-to-r from-white/5 to-transparent top-24 lg:top-1/2 left-1/2 -translate-x-1/2 translate-0 lg:-translate-y-1/3">
                 <img class="w-full h-full" src="/img/Rectangle 1.png">
                 <img src="/img/star.png" alt="" class="absolute -top-12 -left-[51px]">
                 <i class="bx bx-search absolute top-8 right-8 text-xl border-2 border-orange px-2 py-1 text-white rounded-full"></i>

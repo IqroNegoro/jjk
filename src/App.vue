@@ -1,5 +1,5 @@
 <template>
-  <div class="md:overflow-hidden overflow-x-hidden bg-primary w-full md:h-screen">
+  <div class="md:overflow-hidden overflow-x-hidden bg-primary w-full lg:h-screen">
     <Navbar />
     <router-view class="relative z-10" />
     <div class="blur-[100px] bg-red-500 fixed -top-24 -right-24 w-64 h-64 rounded-full"></div>
