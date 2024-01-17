@@ -20,11 +20,11 @@
                 <img src="/img/star.png" alt="" class="absolute -top-12 -left-[51px]">
                 <i class="bx bx-search absolute top-8 right-8 text-xl border-2 border-orange px-2 py-1 text-white rounded-full"></i>
             </div>
-            <img v-show="i == 0" src="/img/gojo.png" alt="" class="z-10 w-full max-md:scale-[1.375]">
-            <img v-show="i == 1" src="/img/geto.png" alt="" class="z-10 w-full max-md:scale-[1.425]">
-            <img v-show="i == 2" src="/img/shoko.png" alt="" class="z-10 w-full max-md:scale-[1.275]">
-            <img v-show="i == 3" src="/img/riko.png" alt="" class="z-10 w-full max-md:scale-[1.425]">
-            <img v-show="i == 4" src="/img/toji.png" alt="" class="z-10 w-full max-md:scale-[1.45]">
+            <img v-show="i == 0" src="/img/gojo.png" alt="" class="z-10 md:w-full w-80 sm:w-1/2 max-md:scale-[1.375]">
+            <img v-show="i == 1" src="/img/geto.png" alt="" class="z-10 md:w-full w-80 sm:w-1/2 max-md:scale-[1.425]">
+            <img v-show="i == 2" src="/img/shoko.png" alt="" class="z-10 md:w-full w-80 sm:w-1/2 max-md:scale-[1.275]">
+            <img v-show="i == 3" src="/img/riko.png" alt="" class="z-10 md:w-full w-80 sm:w-1/2 max-md:scale-[1.425]">
+            <img v-show="i == 4" src="/img/toji.png" alt="" class="z-10 md:w-full w-80 sm:w-1/2 max-md:scale-[1.45]">
             <Transition name="fade-up">
                 <div v-show="i == 0" class="absolute z-10 w-full top-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 flex flex-col justify-center items-center gap-3 text-xl text-white">
                     <p>五条悟</p>

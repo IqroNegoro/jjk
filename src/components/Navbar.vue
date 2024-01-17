@@ -9,7 +9,7 @@
         <router-link to="/characters" :class="{'text-white': $route.name == 'characters', 'text-white/75': $route.name != 'characters'}">Characters</router-link>
         <p class="text-white/75 rotate-[35deg]" to="">/</p>
         <router-link to="/cube" :class="{'text-white': $route.name == 'cube', 'text-white/75': $route.name != 'cube'}">Cube</router-link>
-    </div>x`
+    </div>
 </template>
 <script setup>
 
